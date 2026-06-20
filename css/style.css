@@ -250,7 +250,7 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
   z-index: 0;
   pointer-events: none;
-  filter: brightness(0.43);
+  filter: brightness(0.39);
 }
 .hero-video-overlay {
   position: absolute;
