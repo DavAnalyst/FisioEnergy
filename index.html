@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FisioEnergy - Tu empresa de fisioterapia y bienestar" />
+  <title>FisioEnergy</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       TOP BAR
+  ============================== -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="inner">
+        <div class="top-links">
+          <a href="#">Inicio</a>
+          <a href="#">Blog</a>
+          <a href="#">Sucursales</a>
+        </div>
+        <div class="top-contact">
+          <span><i class="fas fa-phone"></i> +57 300 000 0000</span>
+          <span><i class="fas fa-envelope"></i> info@fisioEnergy.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==============================
+       HEADER / NAV
+  ============================== -->
+  <header id="header">
+    <div class="header-inner">
+      <!-- Logo -->
+      <a href="#" class="site-logo">
+        <span class="logo-text">Fisio<span>Energy</span></span>
+      </a>
+
+      <!-- Nav -->
+      <nav>
+        <ul class="main-nav" id="mainNav">
+          <li class="active"><a href="#">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#plantillas">Plantillas</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#tarifas">Tarifas</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Buttons -->
+      <div class="header-cta">
+        <a href="https://wa.me/573000000000" class="btn-wa" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="#tarifas" class="btn-pay">Pagos</a>
+        <a href="#contacto" class="btn-cite">Cita</a>
+        <a href="#contacto" class="btn-sede">Sede</a>
+      </div>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Social Sidebar -->
+  <div class="social-sidebar">
+    <a href="#" class="fb" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="ig" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="yt" aria-label="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <!-- Floating WhatsApp -->
+  <div class="float-wa">
+    <a href="https://wa.me/573000000000" aria-label="WhatsApp" target="_blank" rel="noopener">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" aria-label="Volver arriba">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- ==============================
+       HERO SLIDER
+  ============================== -->
+  <section class="hero-slider" id="heroSlider" aria-label="Slider principal">
+
+    <!-- Video de fondo -->
+    <video class="hero-video-bg" autoplay muted loop playsinline>
+      <source src="assets/Plantilla animacion.mp4" type="video/mp4">
+    </video>
+    <div class="hero-video-overlay"></div>
+
+    <div class="slide slide-1 active">
+      <div class="slide-overlay"></div>
+      <div class="container">
+        <div class="slide-caption">
+          <p class="slide-eyebrow">Bienvenido a FisioEnergy</p>
+          <h1 class="slide-title">Recupera tu <span>energía</span> y bienestar</h1>
+          <p class="slide-subtitle">Especialistas en fisioterapia y rehabilitación integral</p>
+          <div class="slide-buttons">
+            <a href="#servicios" class="btn btn-primary">Nuestros servicios</a>
+            <a href="#contacto" class="btn btn-outline">Agenda tu cita</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-2">
+      <div class="slide-overlay"></div>
+      <div class="container">
+        <div class="slide-caption center">
+          <p class="slide-eyebrow">Tratamientos especializados</p>
+          <h1 class="slide-title">Tecnología al servicio de tu <span>salud</span></h1>
+          <p class="slide-subtitle">Equipos de última generación para tu recuperación</p>
+          <div class="slide-buttons">
+            <a href="#productos" class="btn btn-primary">Ver tratamientos</a>
+            <a href="#nosotros" class="btn btn-outline">Conócenos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-3">
+      <div class="slide-overlay"></div>
+      <div class="container">
+        <div class="slide-caption right">
+          <p class="slide-eyebrow">Planes y tarifas</p>
+          <h1 class="slide-title">Inversión en tu <span>calidad de vida</span></h1>
+          <p class="slide-subtitle">Planes flexibles adaptados a tus necesidades</p>
+          <div class="slide-buttons">
+            <a href="#tarifas" class="btn btn-primary">Ver planes</a>
+            <a href="https://wa.me/573000000000" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="slider-arrow slider-prev" id="sliderPrev" aria-label="Anterior">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="slider-arrow slider-next" id="sliderNext" aria-label="Siguiente">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+
+    <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Slides"></div>
+  </section>
+
+  <!-- Feature Banner -->
+  <div class="feature-banner">
+    <div class="container">
+      <h2>Más de 10 años mejorando la calidad de vida de nuestros pacientes</h2>
+    </div>
+  </div>
+
+  <!-- ==============================
+       PLANTILLAS ORTOPÉDICAS
+  ============================== -->
+  <section class="section bg-white" id="plantillas">
+    <div class="container">
+      <div class="section-header">
+        <h2>Plantillas Ortopédicas</h2>
+        <div class="section-divider"></div>
+        <p>Soluciones personalizadas para el cuidado y corrección de tu pisada</p>
+      </div>
+      <div class="plantillas-grid">
+
+        <div class="plantillas-text">
+          <h3>¿Qué son las plantillas ortopédicas?</h3>
+          <p>Las plantillas ortopédicas son dispositivos diseñados a medida que se insertan en el calzado para corregir la postura del pie, aliviar dolores y prevenir lesiones. Son ideales para personas con pie plano, fascitis plantar, espolón calcáneo y otras condiciones.</p>
+          <ul class="plantillas-list">
+            <li><i class="fas fa-check-circle"></i> Corrección postural de la pisada</li>
+            <li><i class="fas fa-check-circle"></i> Alivio del dolor de pie, rodilla y espalda</li>
+            <li><i class="fas fa-check-circle"></i> Fabricadas a la medida de tu pie</li>
+            <li><i class="fas fa-check-circle"></i> Materiales de alta calidad y durabilidad</li>
+            <li><i class="fas fa-check-circle"></i> Indicadas para deporte y uso diario</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary" style="margin-top:20px;display:inline-block;">Solicitar valoración</a>
+        </div>
+
+        <div class="plantillas-gallery">
+          <div class="plantillas-img-main">
+            <img
+              src="assets/img/plantilla-1.jpg"
+              alt="Fabricación de plantilla ortopédica"
+              loading="lazy"
+            />
+          </div>
+          <div class="plantillas-img-row">
+            <div class="plantillas-img-thumb">
+              <img
+                src="assets/img/plantilla-2.jpg"
+                alt="Plantilla ortopédica a medida"
+                loading="lazy"
+              />
+              <span>A la medida</span>
+            </div>
+            <div class="plantillas-img-thumb">
+              <img
+                src="assets/img/plantilla-3.jpg"
+                alt="Ortótico especializado"
+                loading="lazy"
+              />
+              <span>Especializada</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       4 PASOS
+  ============================== -->
+  <section class="section steps-section" id="pasos">
+    <div class="container">
+      <div class="section-header">
+        <h2>¿Cómo funciona?</h2>
+        <div class="section-divider"></div>
+        <p>Proceso sencillo para comenzar tu recuperación</p>
+      </div>
+      <div class="steps-carousel">
+        <div class="steps-track" id="stepsTrack">
+
+          <div class="step-item">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Agenda tu cita</h3>
+              <p>Contacta con nosotros por WhatsApp, teléfono o formulario web. Te asignamos el horario más conveniente para ti.</p>
+            </div>
+            <div class="step-img-wrap">
+              <i class="fas fa-calendar-check step-icon"></i>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Valoración inicial</h3>
+              <p>Nuestro equipo realiza una evaluación completa de tu condición para diseñar el plan de tratamiento ideal.</p>
+            </div>
+            <div class="step-img-wrap">
+              <i class="fas fa-stethoscope step-icon"></i>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Plan personalizado</h3>
+              <p>Diseñamos un programa de tratamiento adaptado 100% a tus necesidades, objetivos y condición física.</p>
+            </div>
+            <div class="step-img-wrap">
+              <i class="fas fa-clipboard-list step-icon"></i>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Recuperación y seguimiento</h3>
+              <p>Acompañamos todo tu proceso de recuperación con seguimiento continuo hasta que alcances tus metas.</p>
+            </div>
+            <div class="step-img-wrap">
+              <i class="fas fa-heartbeat step-icon"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="steps-nav">
+        <button id="stepsPrev"><i class="fas fa-arrow-left"></i> Anterior</button>
+        <button id="stepsNext">Siguiente <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       COMPARISON SECTION
+  ============================== -->
+  <section class="section bg-white" id="comparativa">
+    <div class="container">
+      <div class="section-header">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="section-divider"></div>
+        <p>La diferencia entre un tratamiento genérico y uno personalizado</p>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-text">
+          <h3>Tratamiento personalizado vs. Genérico</h3>
+          <p>En FisioEnergy cada paciente recibe un plan diseñado específicamente para su condición. Utilizamos tecnología de diagnóstico avanzada combinada con la experiencia de nuestros especialistas certificados para garantizar los mejores resultados en el menor tiempo posible.</p>
+          <br>
+          <p>No existe un tratamiento universal: cada cuerpo es único y merece una atención única.</p>
+          <br>
+          <a href="#contacto" class="btn btn-primary">Solicitar valoración gratuita</a>
+        </div>
+        <div class="compare-video" id="compareVideo" role="button" aria-label="Reproducir video">
+          <i class="fas fa-play-circle play-icon"></i>
+          <div class="video-label">Ver cómo trabajamos &rarr;</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       PRODUCTS / SERVICES SECTION
+  ============================== -->
+  <section class="section bg-gray" id="productos">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nuestros tratamientos</h2>
+        <div class="section-divider"></div>
+        <p>Servicios especializados para tu recuperación y bienestar</p>
+      </div>
+      <div class="products-grid">
+
+        <article class="product-card">
+          <div class="product-card-img">
+            <i class="fas fa-hand-holding-heart"></i>
+          </div>
+          <div class="product-card-body">
+            <h3>Fisioterapia manual</h3>
+            <p>Técnicas manuales especializadas para aliviar el dolor y restaurar la movilidad articular.</p>
+          </div>
+          <div class="product-card-footer">
+            <span class="product-tag">Popular</span>
+            <a href="#contacto" class="btn btn-primary" style="padding:8px 16px;font-size:11px;">Agendar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card-img">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div class="product-card-body">
+            <h3>Electroterapia</h3>
+            <p>Corrientes eléctricas terapéuticas para acelerar la recuperación y reducir la inflamación.</p>
+          </div>
+          <div class="product-card-footer">
+            <span class="product-tag">Tecnología</span>
+            <a href="#contacto" class="btn btn-primary" style="padding:8px 16px;font-size:11px;">Agendar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card-img">
+            <i class="fas fa-running"></i>
+          </div>
+          <div class="product-card-body">
+            <h3>Rehabilitación deportiva</h3>
+            <p>Programas especializados para deportistas que buscan recuperarse y volver al máximo rendimiento.</p>
+          </div>
+          <div class="product-card-footer">
+            <span class="product-tag">Deporte</span>
+            <a href="#contacto" class="btn btn-primary" style="padding:8px 16px;font-size:11px;">Agendar</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card-img">
+            <i class="fas fa-spa"></i>
+          </div>
+          <div class="product-card-body">
+            <h3>Masoterapia</h3>
+            <p>Masajes terapéuticos para liberar tensión muscular, mejorar la circulación y promover el bienestar.</p>
+          </div>
+          <div class="product-card-footer">
+            <span class="product-tag">Bienestar</span>
+            <a href="#contacto" class="btn btn-primary" style="padding:8px 16px;font-size:11px;">Agendar</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       PRICING TABLE
+  ============================== -->
+  <section class="section bg-white" id="tarifas">
+    <div class="container">
+      <div class="section-header">
+        <h2>Planes y tarifas</h2>
+        <div class="section-divider"></div>
+        <p>Elige el plan que mejor se adapte a tus necesidades</p>
+      </div>
+      <div style="overflow-x:auto;">
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th>Característica</th>
+              <th>
+                <span class="price-amount">Básico</span>
+                <span class="price-label">Consulta única</span>
+              </th>
+              <th>
+                <span class="price-amount">Estándar</span>
+                <span class="price-label">5 sesiones</span>
+              </th>
+              <th>
+                <span class="price-amount">Premium</span>
+                <span class="price-label">10 sesiones</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Valoración inicial</td>
+              <td><i class="fas fa-check"></i></td>
+              <td><i class="fas fa-check"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Plan personalizado</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Seguimiento continuo</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Electroterapia incluida</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Prioridad de agenda</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><a href="#contacto" class="btn btn-primary" style="font-size:11px;padding:10px 20px;">Agendar</a></td>
+              <td><a href="#contacto" class="btn btn-primary" style="font-size:11px;padding:10px 20px;">Agendar</a></td>
+              <td><a href="#contacto" class="btn btn-primary" style="font-size:11px;padding:10px 20px;">Agendar</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       FAQ SECTION
+  ============================== -->
+  <section class="section bg-gray" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Preguntas frecuentes</h2>
+        <div class="section-divider"></div>
+        <p>Resolvemos tus dudas más comunes</p>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" aria-expanded="false">
+            ¿Necesito orden médica para asistir?
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            No es obligatorio, aunque si tienes una orden médica nos ayuda a entender mejor tu diagnóstico. Puedes agendar directamente con nosotros y nuestros especialistas realizarán una valoración completa.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" aria-expanded="false">
+            ¿Cuántas sesiones necesito?
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            Depende de tu condición específica. Después de la valoración inicial, nuestro equipo te recomendará el número de sesiones necesarias para alcanzar tus objetivos de recuperación.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" aria-expanded="false">
+            ¿Aceptan seguros médicos?
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            Trabajamos con varias aseguradoras. Contáctanos para verificar si tu seguro está incluido en nuestra red de aliados.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" aria-expanded="false">
+            ¿Cuál es el horario de atención?
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-answer">
+            Atendemos de lunes a viernes de 7:00 a.m. a 7:00 p.m. y los sábados de 8:00 a.m. a 2:00 p.m. Escríbenos por WhatsApp para verificar disponibilidad.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       ABOUT / NOSOTROS
+  ============================== -->
+  <section class="section bg-white" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <div class="section-header" style="text-align:left;">
+            <h2>Sobre nosotros</h2>
+            <div class="section-divider" style="margin-left:0;"></div>
+          </div>
+          <div class="tabs-header" role="tablist">
+            <button class="tab-btn active" role="tab" aria-selected="true" data-tab="mision">Misión</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="vision">Visión</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="valores">Valores</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="equipo">Equipo</button>
+          </div>
+          <div class="tab-content active" id="tab-mision" role="tabpanel">
+            <h4>Nuestra misión</h4>
+            <p>Brindar servicios de fisioterapia y rehabilitación de alta calidad, centrados en el paciente, promoviendo su recuperación integral y mejorando su calidad de vida a través de tratamientos basados en evidencia científica.</p>
+          </div>
+          <div class="tab-content" id="tab-vision" role="tabpanel">
+            <h4>Nuestra visión</h4>
+            <p>Ser la institución líder en fisioterapia y bienestar en la región, reconocida por la excelencia de nuestros profesionales, la innovación tecnológica y el impacto positivo en la salud de nuestra comunidad.</p>
+          </div>
+          <div class="tab-content" id="tab-valores" role="tabpanel">
+            <h4>Nuestros valores</h4>
+            <ul style="list-style:disc;padding-left:20px;">
+              <li>Excelencia en la atención al paciente</li>
+              <li>Ética e integridad profesional</li>
+              <li>Innovación y actualización continua</li>
+              <li>Trabajo en equipo y colaboración</li>
+              <li>Compromiso con la comunidad</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="tab-equipo" role="tabpanel">
+            <h4>Nuestro equipo</h4>
+            <p>Contamos con fisioterapeutas especializados, con formación académica de alto nivel y años de experiencia clínica. Cada miembro del equipo está comprometido con la actualización continua y la atención humanizada.</p>
+          </div>
+        </div>
+        <div class="about-img-block">
+          <i class="fas fa-user-md"></i>
+          <div class="about-badge">
+            <span>+10</span>
+            años de experiencia
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       PARTNERS / ALIADOS
+  ============================== -->
+  <section class="partners-cta" id="aliados">
+    <div class="container">
+      <h2>¿Quieres ser nuestro aliado?</h2>
+      <p>Únete a nuestra red de socios y lleguemos juntos a más personas</p>
+      <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+      <br><br>
+      <div class="partners-cards">
+        <div class="partner-card">
+          <div class="p-num">01</div>
+          <h3>Convenios empresariales</h3>
+          <p>Programas especiales para empresas que quieren cuidar la salud de sus colaboradores.</p>
+        </div>
+        <div class="partner-card">
+          <div class="p-num">02</div>
+          <h3>Aseguradoras</h3>
+          <p>Alianzas con compañías de seguros para ofrecer cobertura a nuestros pacientes.</p>
+        </div>
+        <div class="partner-card">
+          <div class="p-num">03</div>
+          <h3>Referidos médicos</h3>
+          <p>Programa de referidos para médicos y especialistas que deseen derivar pacientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SERVICES VIDEO SECTION
+  ============================== -->
+  <section class="services-section" id="servicios">
+    <div class="services-bg"></div>
+    <div class="services-content">
+      <div class="services-text">
+        <h2>Conoce todos nuestros servicios</h2>
+        <p>Desde rehabilitación post-quirúrgica hasta programas de bienestar preventivo, en FisioEnergy tenemos el tratamiento que necesitas.</p>
+        <a href="#productos" class="btn btn-primary">Ver servicios</a>
+      </div>
+      <div class="services-video-placeholder" id="servicesVideo" role="button" aria-label="Reproducir video de servicios">
+        <div class="play-btn"><i class="fas fa-play"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       GALLERY / PORTAFOLIO
+  ============================== -->
+  <section id="galeria">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-hands"></i></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-dumbbell"></i></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-heartbeat"></i></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-clinic-medical"></i></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-user-nurse"></i></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-bone"></i></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-brain"></i></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-icon"><i class="fas fa-spa"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       CONTACT / MAP
+  ============================== -->
+  <section id="contacto">
+    <div class="contact-section">
+      <div class="contact-info">
+        <h2>Contáctanos</h2>
+        <p>Estamos listos para atenderte. Escríbenos o visítanos en nuestra sede.</p>
+
+        <div class="contact-detail">
+          <div class="ico"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="text">
+            <strong>Dirección</strong>
+            Calle 123 # 45-67, Bogotá, Colombia
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="ico"><i class="fas fa-phone"></i></div>
+          <div class="text">
+            <strong>Teléfono</strong>
+            +57 300 000 0000
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="ico"><i class="fas fa-envelope"></i></div>
+          <div class="text">
+            <strong>Email</strong>
+            info@fisioEnergy.com
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="ico"><i class="fas fa-clock"></i></div>
+          <div class="text">
+            <strong>Horario</strong>
+            Lun–Vie: 7:00 a.m. – 7:00 p.m. | Sáb: 8:00 a.m. – 2:00 p.m.
+          </div>
+        </div>
+      </div>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps?q=Calle+123+%23+45-67,+Bogot%C3%A1,+Colombia&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0; min-height:400px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación FisioEnergy"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span>&copy; <span id="footerYear"></span> FisioEnergy. Todos los derechos reservados.</span>
+        <div class="footer-links">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos de uso</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
